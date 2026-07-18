@@ -205,3 +205,11 @@ make state        # verifies PoolState was written
 - Soroban's execution model prevents reentrancy.
 - `set_admin` requires both current and new admin to sign — prevents unilateral key rotation.
 - Overflow is impossible — Soroban panics on `i128` overflow in checked arithmetic.
+
+---
+
+## Related repos
+
+- [LuckyPool-frontend](https://github.com/LuckyPoolHQ/LuckyPool-frontend) — Next.js app
+- [LuckyPool-sdk](https://github.com/LuckyPoolHQ/LuckyPool-sdk) — DrawEngine client SDK
+- [LuckyPool-docs](https://github.com/LuckyPoolHQ/LuckyPool-docs) — architecture, design docs
